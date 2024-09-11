@@ -5,4 +5,4 @@ def average(numbers):
   return sum / len(numbers)
 
 list = [1, 2, 3]
-print(average(list))
+print(f"El promedio de {list} es: {average(list)}")
