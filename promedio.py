@@ -4,4 +4,5 @@ def average(numbers):
     sum += num
   return sum / len(numbers)
 
-print(average([1, 2, 3]))
+list = [1, 2, 3]
+print(average(list))
